@@ -1,8 +1,8 @@
 int main() {
-  int x = 3.3;
-  int y = 4.3;
-  int a = x;
-  int b = y + 0.3;
+  double x = 3.3;
+  double y = 4.3;
+  double a = x;
+  double b = y + 0.3;
   printDouble(a + b);
   return 0;
 }
