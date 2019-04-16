@@ -514,6 +514,7 @@ def run_tests(path, backends, prefix, exts):
             exec_name = prefix + ('' if suffix == 'llvm' else '_' + suffix)
             full_name = os.path.join(path, exec_name)
             for filename, is_good in test_files:
+                print(filename)
                 is_ok, data = exec_test(full_name, filename, is_good, linker)
                 if is_ok:
                     tests_ok += 1
