@@ -6,7 +6,7 @@ struct Node {
 };
 
 int main() {
-  list xs = (list) null;
+  list xs = new Node;
   xs->elem = 42;
   printInt(xs->elem);
   return 0;
