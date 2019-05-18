@@ -22,4 +22,5 @@ int main() {
   } else {
     printString("xs is null (3).");
   }
+  return 0;
 }
