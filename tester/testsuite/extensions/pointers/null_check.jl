@@ -14,7 +14,7 @@ int main() {
   list ys = new Node;
   if (ys != (list) null) {
     printString("ys is not null (2).");
-  } else
+  } else {
     printString("ys is null (2).");
   }
 
