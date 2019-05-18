@@ -1,4 +1,4 @@
-typedef Node* list;
+typedef struct Node* list;
 
 struct Node {
   int  value;
